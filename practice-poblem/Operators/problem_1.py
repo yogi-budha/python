@@ -17,7 +17,7 @@
 cp = int(input("Enter the cost price: "))
 sp = int(input("Enter the selling price: "))
 
-if(sp<cp):
+if(sp<=cp):
     print("loss")
 else:
     print("profit")
